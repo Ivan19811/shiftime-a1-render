@@ -5,7 +5,7 @@ const fetch = require('node-fetch');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbziohhPTHfz76PRClvTcAOvpaYVUyCikbKzrEsOPqrqss5CAL9CLpT9rqQaiK6PKGQ/exec';
+const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyTvbcmdpwfRLmBaafm6aP1RTXvntFO0iTdXVcS87ddafFZaOMH5tE1K5Br4hetwxd8/exec';
 
 app.use(cors());
 app.use(express.json());
